@@ -46,6 +46,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: larger;
 }
 .logo {
     font-size: 24px;
@@ -62,7 +63,8 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
-#first-sign-up-button {
+#first-sign-up-button,
+#second-sign-up-button {
     width: 120px;
     height: 35px;
     border: none;
@@ -84,24 +86,25 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 20px 50px 30px;
+    padding: 20px 50px 70px;
 }
 .information-content {
     gap: 100px;
     justify-content: center;
     align-items: center;
+    color: rgb(136, 133, 133);
 }
 .image-and-subtext {
     justify-content: center;
     align-items: center;
-    max-width: 160px;
+    max-width: 200px;
     text-align: center;
     flex-wrap: wrap;
     gap: 12px;
 }
 .image-placeholder {
     width: 160px;
-    height: 150px;
+    height: 180px;
     border: 3px solid #3882F6;
     border-radius: 8px;
 }
@@ -117,7 +120,7 @@ body {
 }
 .quote-container {
     gap: 12px;
-    max-width: 950px;
+    max-width: 980px;
     display: flex;
     flex-direction: column;
     font-size: 36px;
@@ -128,4 +131,27 @@ body {
 .caption {
     font-weight: bolder;
     align-self: flex-end;
+}
+
+/* Call to action section */
+
+.call-to-action {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.call-to-action-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 950px;
+    height: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
+#second-sign-up-button {
+    border: 2px solid #F9FAF8;
 }
