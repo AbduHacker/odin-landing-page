@@ -58,7 +58,8 @@ body {
    font-weight: 900; 
 }
 #main-subtext,
-.link {
+.link,
+.footer-text {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -154,4 +155,16 @@ body {
 }
 #second-sign-up-button {
     border: 2px solid #F9FAF8;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: larger;
 }
